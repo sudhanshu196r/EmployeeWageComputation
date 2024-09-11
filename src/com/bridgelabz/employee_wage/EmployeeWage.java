@@ -110,5 +110,40 @@ public class EmployeeWage {
 
 		}
 
+
+		/*UC5*/
+
+		int wagePerHour5 = 20;
+		int fullDay5 = 8;
+		int halfDay5 = 4;
+		int totalNoOfDays = 20;
+		System.out.println("===== WELCOME TO EMPLOYEE WAGE COMPUTATION ======");
+		System.out.println("");
+
+		int empCheck5 = (int) Math.floor(Math.random() * 10) % 3;
+		switch ( empCheck5 ) {
+		case 0:
+			System.out.print("Employee is Present");
+			System.out.println("");
+			System.out.print("The daily wage of Employee is : " + ( wagePerHour5 * fullDay5 * totalNoOfDays ));
+			System.out.println("");
+			break;
+
+		case 1:
+			System.out.print("Employee is Present but working part time ");
+			System.out.println("");
+			System.out.print("The daily wage of Employee is : " + ( wagePerHour5 * halfDay5 * totalNoOfDays ));
+			System.out.println("");
+			break;
+
+		case 2:
+			System.out.print("Employee is Absent");
+			System.out.println("");
+			System.out.println("The daily wage of Employee is : 0 ");
+			System.out.println("");
+			break;
+
+		}
+
 	}
 }
