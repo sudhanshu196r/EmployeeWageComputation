@@ -38,7 +38,9 @@ public class EmployeeWage {
 			System.out.println("The daily wage of Employee is : 0 " );
 			System.out.println("");
 		}
-
+		
+		
+		
 
 
 	}
